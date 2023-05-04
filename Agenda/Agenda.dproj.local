@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/05/02 15:32:24.105,=C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/02 15:33:14.674,C:\Users\Protazio\Documents\Estudos Delphi\Agenda\unitPrincipal.dfm=C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/05/02 15:33:14.674,C:\Users\Protazio\Documents\Estudos Delphi\Agenda\unitPrincipal.pas=C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/02 15:33:37.416,C:\Users\Protazio\Documents\Estudos Delphi\Agenda\Agenda.dproj=C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/05/02 15:35:56.950,=C:\Users\Protazio\Documents\Estudos Delphi\Agenda\Unit1.pas</Transaction>
+    <Transaction>2023/05/02 15:36:33.442,C:\Users\Protazio\Documents\Estudos Delphi\Agenda\unitDM.dfm=C:\Users\Protazio\Documents\Estudos Delphi\Agenda\Unit1.dfm</Transaction>
+    <Transaction>2023/05/02 15:36:33.442,C:\Users\Protazio\Documents\Estudos Delphi\Agenda\unitDM.pas=C:\Users\Protazio\Documents\Estudos Delphi\Agenda\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
