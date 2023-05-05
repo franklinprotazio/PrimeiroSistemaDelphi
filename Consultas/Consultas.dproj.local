@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/04 20:52:18.000.710,=C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/04 20:53:42.000.933,C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Protazio\Documents\Estudos Delphi\Consultas\unitPrincipal.dfm</Transaction>
+    <Transaction>2023/05/04 20:53:42.000.933,C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Protazio\Documents\Estudos Delphi\Consultas\unitPrincipal.pas</Transaction>
+    <Transaction>2023/05/04 20:53:50.000.425,C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Protazio\Documents\Estudos Delphi\Consultas\Consultas.dproj</Transaction>
+    <Transaction>2023/05/04 20:58:18.000.291,=C:\Users\Protazio\Documents\Estudos Delphi\Consultas\Unit1.pas</Transaction>
+    <Transaction>2023/05/04 20:58:57.000.775,C:\Users\Protazio\Documents\Estudos Delphi\Consultas\Unit1.pas=C:\Users\Protazio\Documents\Estudos Delphi\Consultas\unitDM.pas</Transaction>
+    <Transaction>2023/05/04 20:58:57.000.775,C:\Users\Protazio\Documents\Estudos Delphi\Consultas\Unit1.dfm=C:\Users\Protazio\Documents\Estudos Delphi\Consultas\unitDM.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
