@@ -1,0 +1,155 @@
+object formCadProdutos: TformCadProdutos
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Cadastro de Produtos'
+  ClientHeight = 521
+  ClientWidth = 881
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poScreenCenter
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 24
+    Top = 32
+    Width = 257
+    Height = 29
+    Caption = 'Cadastro de Produtos'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Top = 115
+    Width = 126
+    Height = 19
+    Caption = 'Nome do Produto'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Top = 187
+    Width = 72
+    Height = 19
+    Caption = 'Fabricante'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 304
+    Top = 187
+    Width = 60
+    Height = 19
+    Caption = 'Validade'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 32
+    Top = 267
+    Width = 169
+    Height = 19
+    Caption = 'Quantidade em Estoque'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 384
+    Top = 31
+    Width = 456
+    Height = 41
+    DataSource = DM.dsProdutos
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbInsert, nbDelete, nbPost, nbCancel]
+    TabOrder = 0
+  end
+  object DBEdit1: TDBEdit
+    Left = 32
+    Top = 136
+    Width = 417
+    Height = 23
+    DataField = 'nome'
+    DataSource = DM.dsProdutos
+    TabOrder = 1
+  end
+  object DBEdit2: TDBEdit
+    Left = 32
+    Top = 208
+    Width = 233
+    Height = 23
+    DataField = 'fabricante'
+    DataSource = DM.dsProdutos
+    TabOrder = 2
+  end
+  object DBEdit3: TDBEdit
+    Left = 304
+    Top = 208
+    Width = 145
+    Height = 23
+    DataField = 'validade'
+    DataSource = DM.dsProdutos
+    TabOrder = 3
+  end
+  object DBEdit4: TDBEdit
+    Left = 32
+    Top = 288
+    Width = 169
+    Height = 23
+    DataField = 'estoqueAtual'
+    DataSource = DM.dsProdutos
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object DBGrid1: TDBGrid
+    Left = 488
+    Top = 136
+    Width = 352
+    Height = 329
+    DataSource = DM.dsProdutos
+    ReadOnly = True
+    TabOrder = 5
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -12
+    TitleFont.Name = 'Segoe UI'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'nome'
+        Title.Caption = 'NOME DO PRODUTO'
+        Title.Font.Charset = ANSI_CHARSET
+        Title.Font.Color = clWindowText
+        Title.Font.Height = -12
+        Title.Font.Name = 'Tahoma'
+        Title.Font.Style = [fsBold]
+        Width = 338
+        Visible = True
+      end>
+  end
+end

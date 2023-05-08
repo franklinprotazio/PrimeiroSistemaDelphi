@@ -1,0 +1,43 @@
+object DM: TDM
+  Height = 480
+  Width = 640
+  object Conexao: TFDConnection
+    Params.Strings = (
+      'Database=estoque'
+      'User_Name=root'
+      'Server=127.0.0.1'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 88
+    Top = 48
+  end
+  object tbProdutos: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = Conexao
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'estoque.produtos'
+    Left = 200
+    Top = 48
+  end
+  object dsProdutos: TDataSource
+    DataSet = tbProdutos
+    Left = 200
+    Top = 136
+  end
+  object tbMovimentacoes: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = Conexao
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'estoque.movimentacoes'
+    Left = 320
+    Top = 48
+  end
+  object dsMovimentacoes: TDataSource
+    DataSet = tbMovimentacoes
+    Left = 320
+    Top = 136
+  end
+end

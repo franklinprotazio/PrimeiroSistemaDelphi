@@ -1,0 +1,43 @@
+object DataModule2: TDataModule2
+  Height = 480
+  Width = 640
+  object Conexao: TFDConnection
+    Params.Strings = (
+      'Database=aulaaovivo'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 104
+    Top = 64
+  end
+  object tbClientes: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = Conexao
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'aulaaovivo.clientes'
+    Left = 200
+    Top = 64
+  end
+  object tbDependentes: TFDTable
+    Active = True
+    CachedUpdates = True
+    IndexFieldNames = 'id'
+    Connection = Conexao
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'aulaaovivo.dependentes'
+    Left = 304
+    Top = 64
+  end
+  object dsClientes: TDataSource
+    DataSet = tbClientes
+    Left = 200
+    Top = 152
+  end
+  object dsDependentes: TDataSource
+    DataSet = tbDependentes
+    Left = 312
+    Top = 160
+  end
+end

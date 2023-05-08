@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/07 14:51:34.000.111,=C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/07 15:01:40.000.272,C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\unitPrincipal.dfm=C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/05/07 15:01:40.000.272,C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\unitPrincipal.pas=C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/07 15:01:46.000.846,C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\controleEstoque.dproj=C:\Users\Protazio\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/05/07 15:02:38.000.421,=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit2.pas</Transaction>
+    <Transaction>2023/05/08 10:46:43.544,=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.pas</Transaction>
+    <Transaction>2023/05/08 10:47:24.007,C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\unitCadProdutos.dfm=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.dfm</Transaction>
+    <Transaction>2023/05/08 10:47:24.007,C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\unitCadProdutos.pas=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.pas</Transaction>
+    <Transaction>2023/05/08 10:47:38.819,=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.pas</Transaction>
+    <Transaction>2023/05/08 10:47:54.580,C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\unitCadMovimentacao.pas=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.pas</Transaction>
+    <Transaction>2023/05/08 10:47:54.580,C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\unitCadMovimentacao.dfm=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.dfm</Transaction>
+    <Transaction>2023/05/08 10:48:29.048,=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.pas</Transaction>
+    <Transaction>2023/05/08 10:49:12.617,C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\unitConsMovimentacao.pas=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.pas</Transaction>
+    <Transaction>2023/05/08 10:49:12.617,C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\unitConsMovimentacao.dfm=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.dfm</Transaction>
+    <Transaction>2023/05/08 10:49:41.202,=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.pas</Transaction>
+    <Transaction>2023/05/08 10:50:14.024,C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\unitDM.dfm=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.dfm</Transaction>
+    <Transaction>2023/05/08 10:50:14.024,C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\unitDM.pas=C:\Users\Protazio\Documents\Estudos Delphi\Controle de Estoque\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

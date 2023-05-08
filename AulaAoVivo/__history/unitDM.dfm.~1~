@@ -1,0 +1,8 @@
+object DataModule2: TDataModule2
+  Height = 480
+  Width = 640
+  object SQLConnection1: TSQLConnection
+    Left = 80
+    Top = 72
+  end
+end
